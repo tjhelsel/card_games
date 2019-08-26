@@ -42,9 +42,3 @@ class Deck:
     def deal_hand(self, qty):
         dealt_cards = self._deal(qty)
         return dealt_cards
-
-
-my_deck = Deck()
-
-for card in my_deck:
-    print(card)
